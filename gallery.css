@@ -87,7 +87,7 @@ footer{
 a:visited{
     color: rgb(0, 132, 255);
 }
-@media (max-width:600px){
+/* @media (max-width:600px){
 img{
         width:100%;
        
@@ -111,4 +111,4 @@ body{
     margin: 0px;
 }
 }
-    
+     */
