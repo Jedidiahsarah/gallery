@@ -3,10 +3,10 @@ div{
     height: 400px;
     width: 350px;
     border-radius: 25px;
-    margin: 10px;
-   
+     margin: 10px; 
+    
 
-}
+} 
 .container{
     display: flex;
     height: 100%;
@@ -16,6 +16,7 @@ div{
     justify-content: space-evenly;
     border: none;
     align-items: center;
+    margin-left: 140px;
     
 }
 img{
@@ -27,8 +28,8 @@ img{
     width: 200px;
     height: 40px;
     border: none;
-    margin-right: 500px;
-    margin-top: 15px;
+    margin-right: 500px; 
+     margin-top: 15px;
     align-self: center;
     
 } 
@@ -85,5 +86,29 @@ footer{
 }
 a:visited{
     color: rgb(0, 132, 255);
+}
+@media (max-width:600px){
+img{
+        width:100%;
+       
+    }
+.container{
+    flex-wrap: wrap;
+    padding: 0px;
+  flex-direction: column;
+  width: 100%;
+  margin: 0px;
+ 
+}
+
+footer{
+    width: 100%;
+}
+body{
+    width: 100vw;
+}
+.logo{
+    margin: 0px;
+}
 }
     
